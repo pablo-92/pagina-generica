@@ -209,20 +209,20 @@ main{
 }
 
 .recientes-imagen1{
-    background-image: url('/images/casa.jpg');
+    background-image: url('images/casa.jpg');
     background-size: cover;
 }
 
 .recientes-imagen2{
-    background-image: url('/images/botella.jpg');
+    background-image: url('images/botella.jpg');
 }
 
 .recientes-imagen3{
-    background-image: url('/images/recipientes.jpg');
+    background-image: url('images/recipientes.jpg');
 }
 
 .recientes-imagen4{
-    background-image: url('/images/silla.png');
+    background-image: url('images/silla.png');
 }
 
 .recientes-imagen1,
@@ -254,15 +254,15 @@ main{
 }
 
 .img1{
-    background-image: url(/images/casa.jpg);
+    background-image: url(images/casa.jpg);
 }
 
 .img2{
-    background-image: url(/images/botella.jpg);
+    background-image: url(images/botella.jpg);
 }
 
 .img3{
-    background-image: url(/images/abstracto.jpg);
+    background-image: url(images/abstracto.jpg);
 }
 
 .img1,
@@ -480,43 +480,43 @@ footer .redes-sociales-icono:hover {
 
 /*******ARQUITECTURA.HTML*******/
 .arquitectura-galeria-imagen1{
-    background-image: url(/images/Arquitectura/arq-1.png);
+    background-image: url(images/Arquitectura/arq-1.png);
 }
 
 .arquitectura-galeria-imagen2{
-    background-image: url(/images/Arquitectura/arq-2.jpg);
+    background-image: url(images/Arquitectura/arq-2.jpg);
 }
 
 .arquitectura-galeria-imagen3{
-    background-image: url(/images/Arquitectura/arq-3.jpg);
+    background-image: url(images/Arquitectura/arq-3.jpg);
 }
 
 .arquitectura-galeria-imagen4{
-    background-image: url(/images/Arquitectura/arq-4.jpg);
+    background-image: url(images/Arquitectura/arq-4.jpg);
 }
 
 .arquitectura-galeria-imagen5{
-    background-image: url(/images/Arquitectura/arq-5.jpg);
+    background-image: url(images/Arquitectura/arq-5.jpg);
 }
 
 .arquitectura-galeria-imagen6{
-    background-image: url(/images/Arquitectura/arq-6.jpg);
+    background-image: url(images/Arquitectura/arq-6.jpg);
 }
 
 .arquitectura-galeria-imagen7{
-    background-image: url(/images/Arquitectura/arq-7.jpg);
+    background-image: url(images/Arquitectura/arq-7.jpg);
 }
 
 .arquitectura-galeria-imagen8{
-    background-image: url(/images/Arquitectura/arq-8.jpg);
+    background-image: url(images/Arquitectura/arq-8.jpg);
 }
 
 .arquitectura-galeria-imagen9{
-    background-image: url(/images/Arquitectura/arq-9.jfif);
+    background-image: url(images/Arquitectura/arq-9.jfif);
 }
 
 .arquitectura-galeria-imagen10{
-    background-image: url(/images/Arquitectura/arq-10.jpg);
+    background-image: url(images/Arquitectura/arq-10.jpg);
 }
 
 /*******PRODUCTOS.HTML*******/
