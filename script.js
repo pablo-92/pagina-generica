@@ -38,15 +38,15 @@ menu_desk_proyectos.addEventListener("click", desplegar_submenu_desk);
 
 
 let san = document.querySelector(".san");
-if (location.pathname == '/arquitectura.html') {
+if (location.pathname == '/pagina-generica/arquitectura.html') {
     san.style.color = "var(--color-arquitectura)"
 }
 
-if (location.pathname == '/productos.html') {
+if (location.pathname == '/pagina-generica/productos.html') {
     san.style.color = "var(--color-productos)"
 }
 
-if (location.pathname == '/abstracto.html') {
+if (location.pathname == '/pagina-generica/abstracto.html') {
     san.style.color = "var(--color-abstracto)"
 
 }
