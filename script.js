@@ -48,5 +48,11 @@ if (location.pathname == '/pagina-generica/productos.html') {
 
 if (location.pathname == '/pagina-generica/abstracto.html') {
     san.style.color = "var(--color-abstracto)"
-
 }
+
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });

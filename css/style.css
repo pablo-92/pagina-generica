@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
+
 :root {
     --color-principal: #808780;
     --color-arquitectura: #92AD80;
@@ -472,12 +473,35 @@ footer .redes-sociales-icono:hover {
     padding: 30px 10px 20px 10px;
 }
 
-.galeria-smart-swiper{
-    display: none;
+/****SWIPER****/
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+.swiper-button-prev,
+.swiper-button-next {
+    background: transparent;
+    color: var(--blanco);
 }
 
 .galeria-desk{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-around;
@@ -611,6 +635,9 @@ footer .redes-sociales-icono:hover {
     background-image: url(../images/Abstracto/9.jfif);
 }
 
+.abstracto-galeria-imagen10{
+    background-image: url(../images/Abstracto/10.jpg);
+}
 
 .galeria-imagen{
     width: 300px;
@@ -727,11 +754,6 @@ label{
         width:100%;
         height: 300px;
     }
-
-/*******ARQUITECTURA.HTML*******/
-    .galeria-desk{
-        display: flex;
-    }
 }
 
 @media (min-width:768px){
@@ -743,7 +765,7 @@ label{
     }
 
     .detalles{
-        max-width: 748px;
+        max-width: 1000px;
     }
 
     .sobrenosotros-detalles{
@@ -764,6 +786,15 @@ label{
         display: flex;
         flex-direction: row;
         gap: 40px;
+    }
+
+    .galeria-smart-swiper{
+        display: none;
+    }
+
+    .galeria-desk{
+        display: flex;
+        align-items: center;
     }
 }
 
