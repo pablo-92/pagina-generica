@@ -209,20 +209,20 @@ main{
 }
 
 .recientes-imagen1{
-    background-image: url('pagina-generica/blob/main/images/casa.jpg');
+    background-image: url('../images/casa.jpg');
     background-size: cover;
 }
 
 .recientes-imagen2{
-    background-image: url('./images/botella.jpg');
+    background-image: url('../images/botella.jpg');
 }
 
 .recientes-imagen3{
-    background-image: url('./images/recipientes.jpg');
+    background-image: url('../images/recipientes.jpg');
 }
 
 .recientes-imagen4{
-    background-image: url('./images/silla.png');
+    background-image: url('../images/silla.png');
 }
 
 .recientes-imagen1,
