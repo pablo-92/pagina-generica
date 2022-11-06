@@ -27,10 +27,6 @@
 .titulo1{
     font-size: 40px;
     font-weight: 700;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .titulo1B{
@@ -58,6 +54,11 @@
     margin-bottom: 30px;
 }
 
+.titulo4{
+    color: var(--blanco);
+    font-size: 35px;
+    margin: 10px 0;
+}
 
 nav {
     width: 100%;
@@ -209,20 +210,20 @@ main{
 }
 
 .recientes-imagen1{
-    background-image: url('/images/casa.jpg');
+    background-image: url('../images/casa.jpg');
     background-size: cover;
 }
 
 .recientes-imagen2{
-    background-image: url('/images/botella.jpg');
+    background-image: url('../images/botella.jpg');
 }
 
 .recientes-imagen3{
-    background-image: url('/images/recipientes.jpg');
+    background-image: url('../images/recipientes.jpg');
 }
 
 .recientes-imagen4{
-    background-image: url('/images/silla.png');
+    background-image: url('../images/silla.png');
 }
 
 .recientes-imagen1,
@@ -254,15 +255,15 @@ main{
 }
 
 .img1{
-    background-image: url(/images/casa.jpg);
+    background-image: url(../images/casa.jpg);
 }
 
 .img2{
-    background-image: url(/images/botella.jpg);
+    background-image: url(../images/botella.jpg);
 }
 
 .img3{
-    background-image: url(/images/abstracto.jpg);
+    background-image: url(../images/abstracto.jpg);
 }
 
 .img1,
@@ -283,6 +284,7 @@ main{
 .categorias button{
     width: 100px;
     height: 40px;
+    border: none;
     background: var(--color-footer);
     color: var(--blanco);
     font-weight: 700;
@@ -290,7 +292,7 @@ main{
 
 .boton-mas-detalles:hover{
     filter: invert(100%);
-    transition: filter .7s;
+    transition: filter .5s;
 }
 
 .arquitectura,
@@ -470,6 +472,10 @@ footer .redes-sociales-icono:hover {
     padding: 30px 10px 20px 10px;
 }
 
+.galeria-smart-swiper{
+    display: none;
+}
+
 .galeria-desk{
     display: flex;
     flex-wrap: wrap;
@@ -480,129 +486,129 @@ footer .redes-sociales-icono:hover {
 
 /*******ARQUITECTURA.HTML*******/
 .arquitectura-galeria-imagen1{
-    background-image: url(/images/Arquitectura/arq-1.png);
+    background-image: url(../images/Arquitectura/arq-1.png);
 }
 
 .arquitectura-galeria-imagen2{
-    background-image: url(/images/Arquitectura/arq-2.jpg);
+    background-image: url(../images/Arquitectura/arq-2.jpg);
 }
 
 .arquitectura-galeria-imagen3{
-    background-image: url(/images/Arquitectura/arq-3.jpg);
+    background-image: url(../images/Arquitectura/arq-3.jpg);
 }
 
 .arquitectura-galeria-imagen4{
-    background-image: url(/images/Arquitectura/arq-4.jpg);
+    background-image: url(../images/Arquitectura/arq-4.jpg);
 }
 
 .arquitectura-galeria-imagen5{
-    background-image: url(/images/Arquitectura/arq-5.jpg);
+    background-image: url(../images/Arquitectura/arq-5.jpg);
 }
 
 .arquitectura-galeria-imagen6{
-    background-image: url(/images/Arquitectura/arq-6.jpg);
+    background-image: url(../images/Arquitectura/arq-6.jpg);
 }
 
 .arquitectura-galeria-imagen7{
-    background-image: url(/images/Arquitectura/arq-7.jpg);
+    background-image: url(../images/Arquitectura/arq-7.jpg);
 }
 
 .arquitectura-galeria-imagen8{
-    background-image: url(/images/Arquitectura/arq-8.jpg);
+    background-image: url(../images/Arquitectura/arq-8.jpg);
 }
 
 .arquitectura-galeria-imagen9{
-    background-image: url(/images/Arquitectura/arq-9.jfif);
+    background-image: url(../images/Arquitectura/arq-9.jfif);
 }
 
 .arquitectura-galeria-imagen10{
-    background-image: url(/images/Arquitectura/arq-10.jpg);
+    background-image: url(../images/Arquitectura/arq-10.jpg);
 }
 
 /*******PRODUCTOS.HTML*******/
 .productos-galeria-imagen1{
-    background-image: url(/images/Productos/pro-1.jpg);
+    background-image: url(../images/Productos/pro-1.jpg);
 }
 
 .productos-galeria-imagen2{
-    background-image: url(/images/Productos/pro-2.jpg);
+    background-image: url(../images/Productos/pro-2.jpg);
 }
 
 .productos-galeria-imagen3{
-    background-image: url(/images/Productos/pro-3.jpg);
+    background-image: url(../images/Productos/pro-3.jpg);
 }
 
 .productos-galeria-imagen4{
-    background-image: url(/images/Productos/pro-4.jpg);
+    background-image: url(../images/Productos/pro-4.jpg);
 }
 
 .productos-galeria-imagen5{
-    background-image: url(/images/Productos/pro-5.jpg);
+    background-image: url(../images/Productos/pro-5.jpg);
 }
 
 .productos-galeria-imagen6{
-    background-image: url(/images/Productos/pro-6.jpg);
+    background-image: url(../images/Productos/pro-6.jpg);
 }
 
 .productos-galeria-imagen7{
-    background-image: url(/images/Productos/pro-7.jpg);
+    background-image: url(../images/Productos/pro-7.jpg);
 }
 
 .productos-galeria-imagen8{
-    background-image: url(/images/Productos/pro-8.jpg);
+    background-image: url(../images/Productos/pro-8.jpg);
 }
 
 .productos-galeria-imagen9{
-    background-image: url(/images/Productos/pro-9.jpg);
+    background-image: url(../images/Productos/pro-9.jpg);
 }
 
 .productos-galeria-imagen10{
-    background-image: url(/images/Productos/pro-10.jpg);
+    background-image: url(../images/Productos/pro-10.jpg);
 }
 
 .productos-galeria-imagen11{
-    background-image: url(/images/Productos/pro-11.jpg);
+    background-image: url(../images/Productos/pro-11.jpg);
 }
 
 .productos-galeria-imagen12{
-    background-image: url(/images/Productos/pro-12.jpg);
+    background-image: url(../images/Productos/pro-12.jpg);
 }
 
 /*******ABSTRACTO.HTML*******/
 .abstracto-galeria-imagen1{
-    background-image: url(/images/Abstracto/1.jpg);
+    background-image: url(../images/Abstracto/1.jpg);
 }
 
 .abstracto-galeria-imagen2{
-    background-image: url(/images/Abstracto/2.jpg);
+    background-image: url(../images/Abstracto/2.jpg);
 }
 
 .abstracto-galeria-imagen3{
-    background-image: url(/images/Abstracto/3.jpg);
+    background-image: url(../images/Abstracto/3.jpg);
 }
 
 .abstracto-galeria-imagen4{
-    background-image: url(/images/Abstracto/4.jpg);
+    background-image: url(../images/Abstracto/4.jpg);
 }
 
 .abstracto-galeria-imagen5{
-    background-image: url(/images/Abstracto/5.jpg);
+    background-image: url(../images/Abstracto/5.jpg);
 }
 
 .abstracto-galeria-imagen6{
-    background-image: url(/images/Abstracto/6.jpg);
+    background-image: url(../images/Abstracto/6.jpg);
 }
 
 .abstracto-galeria-imagen7{
-    background-image: url(/images/Abstracto/7.jpg);
+    background-image: url(../images/Abstracto/7.jpg);
 }
 
 .abstracto-galeria-imagen8{
-    background-image: url(/images/Abstracto/8.jfif);
+    background-image: url(../images/Abstracto/8.jfif);
 }
 
 .abstracto-galeria-imagen9{
-    background-image: url(/images/Abstracto/9.jfif);
+    background-image: url(../images/Abstracto/9.jfif);
 }
 
 
@@ -625,11 +631,11 @@ footer .redes-sociales-icono:hover {
 }
 
 .autor1{
-    background-image: url(/images/autor1.jpg);
+    background-image: url(../images/autor1.jpg);
 }
 
 .autor2{
-    background-image: url(/images/autor2.jpg);
+    background-image: url(../images/autor2.jpg);
 }
 
 .autor1, .autor2{
@@ -642,7 +648,7 @@ footer .redes-sociales-icono:hover {
 
 /*******CONTACTO.HTML*******/
 .contacto{
-    text-align: left;
+    text-align: center;
 }
 
 .redes{
@@ -691,6 +697,13 @@ label{
     font-weight: 900;
     background: var(--color-footer);
     color: var(--blanco);
+    transition: all .5s;
+}
+
+.submit button:hover{
+    cursor: pointer;
+    background: var(--blanco);
+    color: var(--color-footer);
 }
 
 .mapa iframe{
@@ -777,8 +790,10 @@ label{
     }
 
     .mensaje{
+        width: 100%;
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
     }
 
     .container,
@@ -834,19 +849,19 @@ label{
     }
 
     .arquitectura-acercade-img{
-        background-image: url(/images/casa.jpg);
+        background-image: url(../images/casa.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .productos-acercade-img{
-        background-image: url(/images/producto.jpg);
+        background-image: url(../images/producto.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .abstracto-acercade-img{
-        background-image: url(/images/Abstracto/abstracto2.jpg);
+        background-image: url(../images/Abstracto/abstracto2.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -865,8 +880,6 @@ label{
         grid-template-columns: repeat(3, 1fr);
         gap: 15px;
     }
-
-
 }
 
 @media (min-width: 1024px) {
@@ -968,8 +981,9 @@ label{
     }
 
     .mensaje-mapa-container{
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 15px;
     }
 }
