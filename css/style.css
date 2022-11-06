@@ -209,7 +209,7 @@ main{
 }
 
 .recientes-imagen1{
-    background-image: url('./images/casa.jpg');
+    background-image: url('pagina-generica/blob/main/images/casa.jpg');
     background-size: cover;
 }
 
