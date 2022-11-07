@@ -431,7 +431,6 @@ footer .redes-sociales-icono:hover {
 
 .detalles{
     font-style: italic;
-    text-align: end;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -765,6 +764,10 @@ label{
 }
 
 @media (min-width:768px){
+    .titulo1{
+        text-align:center;
+    }
+
     .introduccion{
         display: flex;
         flex-direction: column;
@@ -808,7 +811,6 @@ label{
 
 @media (min-width:1000px){
     .titulo1{
-        text-align: start;
         font-size: 50px;
     }
 
@@ -857,7 +859,7 @@ label{
     .abstracto-acercade-container,
     .abstracto-introduccion-container{
         display: flex;
-        gap: 10px;
+        gap: 20px;
         justify-content: space-between;
     }
 

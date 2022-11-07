@@ -6,13 +6,13 @@ let menu_proyectos = document.querySelector(".proyectos");
 let flecha = document.querySelector(".flecha");
 let submenu = document.querySelector(".submenu");
 
-boton_menu.addEventListener('click', desplegar_menu);
 function desplegar_menu() {
     menu.classList.toggle("menu-desplegado");
     nav.classList.toggle("nav-menu-desplegado");
     submenu.style.height = "0px";
     flecha.classList.remove("flecha-girada");
 };
+boton_menu.addEventListener('click', desplegar_menu);
 
 function desplegar_submenu() {
     flecha.classList.toggle("flecha-girada");
